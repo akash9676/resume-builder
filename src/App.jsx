@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold">Github Testing Session</h1>
+      <h1 className="text-3xl font-bold">Final testing</h1>
     </>
   );
 }

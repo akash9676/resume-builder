@@ -1,12 +1,23 @@
-import { PersonalDetails } from "./components/personalDetails";
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
+
+// import { usePDF } from "@react-pdf/renderer";
+import Reactpdf from "./components/reactpdf";
+
 function App() {
-  return (
-    <>
-      <div>
-        <PersonalDetails></PersonalDetails>
-      </div>
-    </>
-  );
+    // const [instance, updateInstance] = usePDF({ document: <Reactpdf /> });
+
+    // if (instance.loading) return <div>Loading ...</div>;
+
+    // if (instance.error) return <div>Something went wrong: {error}</div>;
+    return (
+        <>
+            {/* <a href={instance.url} download="Resume.pdf">
+                Download
+            </a> */}
+            <Reactpdf />
+        </>
+    );
 }
 
 export default App;

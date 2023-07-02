@@ -1,7 +1,21 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
+
+// import { usePDF } from "@react-pdf/renderer";
+import Reactpdf from "./components/reactpdf";
+
 function App() {
+    // const [instance, updateInstance] = usePDF({ document: <Reactpdf /> });
+
+    // if (instance.loading) return <div>Loading ...</div>;
+
+    // if (instance.error) return <div>Something went wrong: {error}</div>;
     return (
         <>
-            <h1 className="text-3xl font-bold">Final testing</h1>
+            {/* <a href={instance.url} download="Resume.pdf">
+                Download
+            </a> */}
+            <Reactpdf />
         </>
     );
 }

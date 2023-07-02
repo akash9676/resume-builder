@@ -21,8 +21,8 @@ const styles = StyleSheet.create({
         fontSize: 20,
     },
     links: {
-        marginLeft: 20,
-        marginRight: 20,
+        marginLeft: 30,
+        marginRight: 30,
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-between",
@@ -77,7 +77,7 @@ const Reactpdf = () => (
                     <Text>Education</Text>
                 </View>
                 <View style={styles.line}>
-                    <Svg height="20" width="560">
+                    <Svg height="20" width="540">
                         <Line
                             x1="0"
                             y1="0"

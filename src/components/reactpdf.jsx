@@ -77,7 +77,7 @@ const Reactpdf = () => (
                     <Text>Education</Text>
                 </View>
                 <View style={styles.line}>
-                    <Svg height="20" width="550">
+                    <Svg height="20" width="560">
                         <Line
                             x1="0"
                             y1="0"

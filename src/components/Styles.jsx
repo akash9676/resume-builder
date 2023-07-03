@@ -17,15 +17,16 @@ const styles = StyleSheet.create({
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-between",
-        fontSize: 14,
     },
     linkleft: {
+        fontSize: 12,
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "flex-start",
     },
     linkright: {
+        fontSize: 12,
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
@@ -37,7 +38,7 @@ const styles = StyleSheet.create({
         display: "flex",
         flexDirection: "row",
         justifyContent: "center",
-        fontSize: 15,
+        fontSize: 16,
     },
     line: {
         display: "flex",
@@ -49,6 +50,26 @@ const styles = StyleSheet.create({
         flexDirection: "column",
         marginLeft: 30,
         fontSize:13,
+    education: {
+        marginLeft: 30,
+        marginRight: 30,
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-between",
+    },
+    educationleft: {
+        fontSize: 12,
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "flex-start",
+    },
+    educationright: {
+        fontSize: 12,
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "flex-end",
     },
 });
 

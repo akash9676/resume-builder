@@ -16,8 +16,7 @@ function App() {
             {/* <a href={instance.url} download="Resume.pdf">
                 Download
             </a> */}
-            {/* <Reactpdf /> */}
-            <Education />
+            <Reactpdf />
         </>
     );
 }

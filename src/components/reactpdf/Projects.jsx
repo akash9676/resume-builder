@@ -20,7 +20,12 @@ const Projects = () => (
                 />
             </Svg>
         </View>
-        <View>{/* Chandu will write here */}</View>
+        <View style={styles.projectsheading}>{/* Chandu will write here */}
+        <Text>Image processing model | Deep Learning</Text>
+            <View >
+        
+            </View>
+        </View>
     </View>
 );
 

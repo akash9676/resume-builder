@@ -44,6 +44,12 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "center",
     },
+    projectsheading: {
+        display: "flex",
+        flexDirection: "column",
+        marginLeft: 30,
+        fontSize:13,
+    },
 });
 
 export default styles;

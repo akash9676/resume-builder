@@ -9,7 +9,7 @@ import styles from "../Styles";
 const Intro = () => (
     <View>
         <View style={styles.name}>
-            <Text>Gundapuneni Akash</Text>
+            <Text>Vishnu Chiluveri</Text>
         </View>
         <View style={styles.links}>
             <View style={styles.linkleft}>

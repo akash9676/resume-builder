@@ -2,6 +2,7 @@
 /* eslint-disable no-undef */
 
 // import { usePDF } from "@react-pdf/renderer";
+import { Education } from "./components/education";
 import Reactpdf from "./components/reactpdf";
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
             {/* <a href={instance.url} download="Resume.pdf">
                 Download
             </a> */}
-            <Reactpdf />
+            {/* <Reactpdf /> */}
+            <Education />
         </>
     );
 }

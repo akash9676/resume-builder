@@ -20,7 +20,17 @@ const Education = () => (
                 />
             </Svg>
         </View>
-        <View>{/* Akash will write here */}</View>
+        <View style={styles.education}>
+            {/* Akash will write here */}
+            <View style={styles.educationleft}>
+                <Text>Guru Nank Institutions Technical Campus</Text>
+                <Text>8.03 CSE-IOT</Text>
+            </View>
+            <View style={styles.educationright}>
+                <Text>Nov,2020-24</Text>
+                <Text>Hyderbad,India</Text>
+            </View>
+        </View>
     </View>
 );
 

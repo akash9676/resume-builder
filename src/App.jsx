@@ -3,6 +3,7 @@
 
 // import { usePDF } from "@react-pdf/renderer";
 import { Education } from "./components/education";
+import { EducationDetails } from "./components/educationDetails";
 import Reactpdf from "./components/reactpdf";
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
                 Download
             </a> */}
             {/* <Reactpdf /> */}
-            <Education />
+            {/* <Education /> */}
+            <EducationDetails />
         </>
     );
 }

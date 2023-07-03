@@ -88,6 +88,12 @@ const Reactpdf = () => (
                         />
                     </Svg>
                 </View>
+                <View>
+                    {/* Akash will write here */}
+                </View>
+                <View>
+                    {/* Chnadu will write here about experience */}
+                </View>
             </Page>
         </Document>
     </PDFViewer>

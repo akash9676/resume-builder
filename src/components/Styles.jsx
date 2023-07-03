@@ -50,6 +50,7 @@ const styles = StyleSheet.create({
         flexDirection: "column",
         marginLeft: 30,
         fontSize:13,
+    },
     education: {
         marginLeft: 30,
         marginRight: 30,
